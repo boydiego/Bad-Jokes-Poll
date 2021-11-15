@@ -1,0 +1,8 @@
+.signature {
+  display: flex;
+  justify-content: center;
+}
+
+.signature ruby rt {
+  font-size: .7rem;
+}

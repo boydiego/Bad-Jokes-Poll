@@ -16,6 +16,7 @@
 
  @import 'shared/root.css';
  @import 'shared/navbar.css';
+ @import 'shared/signature.css';
 
  * {
   padding: 0;
