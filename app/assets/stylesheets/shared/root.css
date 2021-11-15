@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #AFD0BF;
+  --blue: #1574f5;
+  --blue-hover: #125fca;
+  --card-hover: #eefcff;
+  --white: #ffffff;
+  --black: #261e1e;
+  --grey: #f8f5f2;
+  --dark-grey: #dfd8d3;
+  --primary-text: #0a3853;
+  --secondary-text: #666666;
+
+  /* --font-family: 'Open Sans', sans-serif; */
+  --font-family: Century, Helvetica, Arial, sans-serif;
+}
