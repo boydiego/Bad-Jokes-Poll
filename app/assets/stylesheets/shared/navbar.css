@@ -1,0 +1,48 @@
+.navbar-container {
+  background-color: var(--primary-color);
+  height: 72px;
+}
+
+.navbar-container .navbar {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-container .navbar .navbar-logo {
+  max-height: 1.75rem;
+  background-color: var(--primary-color);
+}
+
+.navbar-container .navbar .navbar-logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar-container .navbar .navbar-logo .fas {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-container .navbar .navbar-logo .logo-text {
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.navbar-container .navbar .menu-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-container .navbar .menu-navigation .myaccount .menu {
+  margin-left: 1.5rem;
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary-color);
+}

@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+ @import 'shared/root.css';
+ @import 'shared/navbar.css';
+
+ * {
+  padding: 0;
+  margin: 0;
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: large;
+  color: #00171F;
+}
