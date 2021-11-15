@@ -1,3 +1,3 @@
 class Vote < ApplicationRecord
-  has_many: polls
+  has_many :polls
 end
