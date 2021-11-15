@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_11_15_155826) do
+ActiveRecord::Schema.define(version: 2021_11_15_160641) do
+
+  create_table "polls", force: :cascade do |t|
+    t.string "name"
+    t.string "questions"
+    t.integer "user_id", null: false
+    t.integer "vote_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_polls_on_user_id"
+    t.index ["vote_id"], name: "index_polls_on_vote_id"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -29,4 +40,6 @@ ActiveRecord::Schema.define(version: 2021_11_15_155826) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "polls", "users"
+  add_foreign_key "polls", "votes"
 end
